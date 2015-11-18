@@ -1,0 +1,43 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Snake</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="styleDummy">Snake</div>
+
+        <canvas id="canvas" width="400" height="400"></canvas>
+
+        <br>
+
+        <label>Speed: </label>
+
+        <select id="speed">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option selected>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+        </select>
+
+        <br>
+
+        <label>Score: </label>
+        <span id="score">0</span>
+        <div><label>Controls: </label>Use wasd or arrow keys to control the snake. Use Space to restart the game. Press p to pause (limited to 1 usage per point)</div>
+
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/konami.js"></script>
+
+    </body>
+</html>
